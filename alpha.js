@@ -205,7 +205,7 @@ function uncache(module = '.') {
          }
          return message;
       },
-      browser: ['Bot By ZeeoneOfc', 'safari', '1.0.0'],
+      browser: ['Bot', 'safari', '1.0.0'],
       auth: state
    })
 
