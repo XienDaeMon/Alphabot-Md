@@ -101,7 +101,7 @@ exports.UmurXReg = () =>{
 	return`Umur kamu terlalu tua, bukannya mati ehh malah main bot`
 	}
 exports.firstChat = (a, b, c) =>{
-	return`Selamat ${a} ${b} 🤗, saya adalah ${c} yaitu bot whatsapp. Ada yang bisa ${c} bantu?`
+	return`@{a} Apa?`
 	}
 exports.StartAbsen = () =>{
 	return`Mulai Absen`
@@ -1752,52 +1752,15 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !sound68
 │○ !sound69
 ╰❒ !sound70
-
-╭─❒ 「 TqTo 」 
-│○ My God
-│○ My Parents
-│○ Fatih A.
-│○ Ferdi
-│○ DikaArdnt
-│○ Mhankbarbar
-│○ Nurutomo
-│○ Rashid
-│○ ZeeoneOfc
-│○ Penyedia Module
-╰❒ And All Support
     `
 }
 
 exports.rules = (prefix) => {
-    return `
-*── 「 RULES AND FAQ 」 ──*
-
-1. Jangan spam bot. 🙅
-2. Jangan telepon bot. ☎️
-3. Jangan membandingkan bot 👍
-
-🗯️ Bot tidak atau lambat merespon ?
-➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan.
-
-🗯️ Dimana saya bisa mendapatkan Script dari bot ini ?
-➡️ Script ini bisa kalian dapatkan di YouTube ZEEONE OFC
-
-🗯️ Boleh saya menambah ke grup?
-➡️ Untuk itu tergantung dari owner bot sendiri
-
-🗯️ Prefixnya apa ya?
-➡️ Bot ini menggunakan multi prefix & bisa kamu gunakan tanpa prefix
-
-Jika sudah dipahami rules-nya, silakan ketik *${prefix}menu* untuk memulai!
-
-⚠️ Segala kebijakan dan ketentuan bot dapat berubah kapan saja 
-
-Terimakasih! 
+    return `Jangan Lupa Donet Aja 
 `
 }
 exports.welcome = () =>{
-	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄 🤗
-	
+	return`intro deck	
 ╭ 𝖭𝖺𝗆𝖺 :
 │○ 𝖴𝗆𝗎𝗋 :
 │○ 𝖦𝖾𝗇𝖽𝖾𝗋 :
@@ -1805,28 +1768,19 @@ exports.welcome = () =>{
 ╰❒ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
 }
 exports.leave = () =>{
-	return`Yah kok out 😣 Mental aman kan kak >.<
+	return`Jangan balik Lagi Ya
 Goodbye`
 }
 exports.source = () =>{
-return`*------「 SOURCE CODE 」 ------*
-
-Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://s.id/YouTube-Zeeoneofc
+return`Private
 `
 }
 exports.tos = (ownernomer) => {
     return `
 *-------「 DONATE 」 -------*
 
-Hai kak ☺️ 
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
-
-Berapapun donasi kalian akan sangat berarti 👍
-Thanks!
-
 Contact person Owner:
-wa.me/${ownernomer}
+wa.me/6281269734000
 
     `
 }
